@@ -44,7 +44,7 @@ class VariablesAssignmentTests {
 
     @Test
     void testBooleanVariable() {
-        assertNotNull(variablesAssignment.booleanVariable, "The boolean variable should be initialized with a true or false value.");
+        assertTrue(variablesAssignment.booleanVariable, "The boolean variable should be initialized with a true or false value.");
     }
 
     @Test
